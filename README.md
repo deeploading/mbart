@@ -19,10 +19,10 @@ mBART는 양방향 인코더와 자동 회귀 디코더를 가진 기계 번역 
 연령대별 특징적 발화(은어∙속어 등) 라벨링 데이터   
 
 ## 하이퍼파라미터
-● num_train_epochs: epoch 개수
-● batch_size: batch 사이즈
-● weight_decay: 가중치 감쇠, 기존 값 0.05
-● learning_rate: 학습률, 기존 값 5e-5   
+● num_train_epochs: epoch 개수  
+● batch_size: batch 사이즈  
+● weight_decay: 가중치 감쇠, 기존 값 0.05  
+● learning_rate: 학습률, 기존 값 5e-5    
 
 ## 평가 기준
 BLEU score 
