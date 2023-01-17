@@ -36,6 +36,25 @@ Docker 20.10.21
 ● weight_decay: 가중치 감쇠, 기존 값 0.05  
 ● learning_rate: 학습률, 기존 값 5e-5    
 
+## 실행 방법
+### 모델 학습 
+```
+python train.py \
+--data_path=./라벨링데이터 \
+--model_path=./model_path \
+--model_final=./model_final \
+--num_train_epochs=3 \
+--batch_size=4 \
+--weight_decay=0.05 \
+--learning_rate=5e-5 
+```  
+### 모델으로 예측 
+```
+python prediction.py \
+--model_path=./model \
+--data_path=./평가용데이터셋/라벨링데이터
+```  
+
 ## 평가 기준
 기계 번역의 성능을 측정하는 지표인 BLEU(Bilingual Evaluation Understudy) score를 사용하여 성능을 측정하였습니다. 
 
