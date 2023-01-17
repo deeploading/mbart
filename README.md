@@ -56,7 +56,7 @@ python prediction.py \
 ```  
 
 ## 평가 기준
-기계 번역의 성능을 측정하는 지표인 BLEU(Bilingual Evaluation Understudy) score를 사용하여 성능을 측정하였습니다. 
+기계 번역의 성능을 측정하는 지표인 BLEU(Bilingual Evaluation Understudy) score를 사용하여 성능을 측정하였으며, 모델의 BLEU 스코어 결과는 86.9입니다. 
 
 
 
