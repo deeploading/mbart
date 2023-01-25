@@ -58,8 +58,8 @@ python train.py \
 ### 모델으로 예측 
 ```
 python prediction.py \
---slang_model=./slang_model \
---data_path=./평가용데이터셋/라벨링데이터
+--data_path=./평가용데이터셋/라벨링데이터 \
+--slang_model=./slang_model 
 ```  
 
 ## 평가 기준
