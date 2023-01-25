@@ -30,19 +30,24 @@ Docker 20.10.21
 ## 학습 데이터셋
 연령대별 특징적 발화(은어∙속어 등) 라벨링 데이터   
 
-## 하이퍼파라미터
+## 파라미터
+### 모델 학습  
+● data_path: 데이터가 들어 있는 폴더 경로 
+● slang_model: 모델 저장 경로 
+● num_train_epochs: epoch 개수  
 ● num_train_epochs: epoch 개수  
 ● batch_size: batch 사이즈  
 ● weight_decay: 가중치 감쇠, 기존 값 0.05  
 ● learning_rate: 학습률, 기존 값 5e-5    
+### 모델로 예측
+● slang_model: 학습한 모델 로컬 경로, 입력하지 않을 시 huggingface에 업로드 된 모델 사용 
 
 ## 실행 방법
 ### 모델 학습 
 ```
 python train.py \
 --data_path=./라벨링데이터 \
---model_path=./model_path \
---model_final=./model_final \
+--slang_model=./slang_model \
 --num_train_epochs=3 \
 --batch_size=4 \
 --weight_decay=0.05 \
