@@ -297,7 +297,7 @@ tokenized_datasets = tokenized_datasets.remove_columns(["token_type_ids"])
 
 from transformers import MBartForConditionalGeneration 
 from transformers import DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer
-model = MBartForConditionalGeneration.from_pretrained(config.model_route)
+model = MBartForConditionalGeneration.from_pretrained("facebook/mbart-large-cc25")
 
 batch_size = 4
 args = Seq2SeqTrainingArguments(  
