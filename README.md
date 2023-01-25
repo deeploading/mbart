@@ -40,7 +40,9 @@ Docker 20.10.21
 ● weight_decay: 가중치 감쇠, 기존 값 0.05  
 ● learning_rate: 학습률, 기존 값 5e-5    
 ### 모델로 예측
-● slang_model: 학습한 모델 로컬 경로, 입력하지 않을 시 huggingface에 업로드 된 모델 사용   
+● slang_model: 학습한 모델 로컬 경로, 입력하지 않을 시 huggingface에 업로드 된 모델 사용    
+● data_path: 데이터가 들어 있는 폴더 경로   
+
 
 ## 실행 방법
 ### 모델 학습 
@@ -56,7 +58,7 @@ python train.py \
 ### 모델으로 예측 
 ```
 python prediction.py \
---model_path=./model \
+--slang_model=./slang_model \
 --data_path=./평가용데이터셋/라벨링데이터
 ```  
 
