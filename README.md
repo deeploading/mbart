@@ -34,8 +34,7 @@ Docker 20.10.21
 ### 모델 학습  
 ● data_path: 데이터가 들어 있는 폴더 경로   
 ● slang_model: 모델 저장 경로   
-● num_train_epochs: epoch 개수    
-● num_train_epochs: epoch 개수    
+● num_train_epochs: epoch 개수     
 ● batch_size: batch 사이즈    
 ● weight_decay: 가중치 감쇠, 기존 값 0.05  
 ● learning_rate: 학습률, 기존 값 5e-5    
