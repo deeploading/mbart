@@ -54,12 +54,23 @@ python train.py \
 --weight_decay=0.05 \
 --learning_rate=5e-5 
 ```  
+[./data_path]의 데이터로 모델이 학습을 한 후 [./slang_model]에 모델을 저장합니다.
+--data_path : 데이터 저장 경로 
+--slang_model : 모델 저장 경로 
+--num_train_epochs : epoch 숫자
+--batch_size : batch 크기 
+--weight_decay : 가중치 감쇠 
+--learning_rates : 학습률  
+
 ### 모델으로 예측 
 ```
 python prediction.py \
 --data_path=./라벨링데이터 \
 --slang_model=./slang_model 
 ```  
+[./slang_model] 모델을 사용하여 라벨링데이터 폴더의 json 파일을 읽어와 은어와 속어가 포함된 문장을 표준어로 번역한다. 
+--data_path : 데이터 저장 경로 
+--slang_model : 학습한 모델 경로   
 
 ## 평가 기준
 기계 번역의 성능을 측정하는 지표인 BLEU(Bilingual Evaluation Understudy) score를 사용하여 성능을 측정하였으며, 모델의 BLEU 스코어 결과는 86.9입니다.   
