@@ -1,0 +1,45 @@
+{
+  "DataSet":"연령대별특징적발화음성",
+  "Version":"1.0",
+  "Date":"20220929",
+  "MediaUrl":"단어/10대/11.게임/10_11_2001_220929_0001.wav",
+  "Category":"10대",
+  "SubCategory":"게임",
+  "DialogPlace":"집",
+  "DialogVoiceType":"독백",
+  "SpeakerNumber":"1",
+  "RecDevice":"스마트폰",
+  "RecLen":3.445,
+  "AudioResolution":{
+    "BitDepth":"16bit",
+    "SampleRate":"44.1kHz"
+  },
+  "Speakers":[
+    {
+      "Speaker":"2001",
+      "Gender":"남성",
+      "Locate":"경상",
+      "AgeGroup":"20"
+    }
+  ],
+  "Dialogs":[
+    {
+      "Speaker":"2001",
+      "SpeakerText":"차이",
+      "TextConvert":"한쪽이 우세한것",
+      "StartTime":1,
+      "EndTime":2.445,
+      "SpeakTime":1.445,
+      "WordInfo":[
+        {
+          "Word":"차이",
+          "WordType":"은어",
+          "WordStructure":"파생어",
+          "WordDefine":"롤에 존재하는 각 라인 운영에 있어서 같은 라인 중에 한쪽이 우세한 것을 말한다.",
+          "WordFell":"부정",
+          "WordMean":"싫어함"
+        }
+      ]
+    }
+  ]
+}

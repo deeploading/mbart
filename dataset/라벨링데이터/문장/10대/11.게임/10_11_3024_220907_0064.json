@@ -1,0 +1,85 @@
+{
+  "DataSet":"연령대별특징적발화음성",
+  "Version":"1.0",
+  "Date":"20220907",
+  "MediaUrl":"문장/10대/11.게임/10_11_3024_220907_0064.wav",
+  "Category":"10대",
+  "SubCategory":"게임",
+  "DialogPlace":"집",
+  "DialogVoiceType":"독백",
+  "SpeakerNumber":"1",
+  "RecDevice":"스마트폰",
+  "RecLen":21.849,
+  "AudioResolution":{
+    "BitDepth":"16bit",
+    "SampleRate":"44.1kHz"
+  },
+  "Speakers":[
+    {
+      "Speaker":"3024",
+      "Gender":"여성",
+      "Locate":"강원",
+      "AgeGroup":"20"
+    }
+  ],
+  "Dialogs":[
+    {
+      "Speaker":"3024",
+      "SpeakerText":"상대 탑라이너가 계속 포탑 안에서 사리기만 하길래 정글러 불러서 탑다이브를 쳤는데 걔가 잘했던건지 우리가 못했던건지. 아주 극한의 개피만 남은 채로 (2)/(이) 대 (1)/(일)로 더블킬을 내버리더라. 본의 아니게 상대 탑라이너한테 매드무비를 만들어주게 되었어. 나는 매드무비 만들려고 해도 절대 안되던데.",
+      "TextConvert":"상대 윗쪽 포지션 하는 사람이 계속 포탑 안에서 사리기만 하길래 중립 포지션 하는 사람 불러서 탑에서 포탑에서 사리고 있는 상대를 공격을 쳤는데 걔가 잘했던건지 우리가 못했던건지. 아주 극한의 적은 체력만 남은 채로 2대1로 두명을 동시에 킬을 내버리더라. 본의 아니게 상대 윗쪽 포지션 하는 사람한테 매드무비를 만들어주게 되었어. 나는 매드무비 만들려고 해도 절대 안되던데.",
+      "StartTime":1,
+      "EndTime":20.849,
+      "SpeakTime":19.849,
+      "WordInfo":[
+        {
+          "Word":"탑라이너",
+          "WordType":"은어",
+          "WordStructure":"기타",
+          "WordDefine":"리그오브 레전드 (League Of Legend) 포지션 중 상단 라인에서 챔피언을 플레이하는 포지션을 지칭한다.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"정글러",
+          "WordType":"은어",
+          "WordStructure":"혼성어",
+          "WordDefine":"소환사의 협곡(League Of Legend) 에서 EU 스타일 포지션상 정글이라는 중립 지역을 중점으로 운용하는 포지션",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"탑다이브",
+          "WordType":"은어",
+          "WordStructure":"합성어",
+          "WordDefine":"탑(Top)+다이브(Dive)의 합성어 / 상단 라인의 포탑 내부로 공격",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"개피",
+          "WordType":"은어",
+          "WordStructure":"기타",
+          "WordDefine":"내 피가 딸리는(달리는의 잘못된 표현) 상태를 알리기 위해 '딸피' 혹은 '개피'라고 한다.",
+          "WordFell":"부정",
+          "WordMean":"화남"
+        },
+        {
+          "Word":"더블킬",
+          "WordType":"은어",
+          "WordStructure":"합성어",
+          "WordDefine":"더블(Double)+킬(kill)의 합성어 / 한 캐릭터가 한순간에 적을 둘 처치했을때를 칭함 / 멀티킬과 같은 의미",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"탑라이너",
+          "WordType":"은어",
+          "WordStructure":"기타",
+          "WordDefine":"리그오브 레전드 (League Of Legend) 포지션 중 상단 라인에서 챔피언을 플레이하는 포지션을 지칭한다.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    }
+  ]
+}
