@@ -46,12 +46,12 @@ Docker 20.10.21
 ### 모델 학습 
 ```
 python train.py \
---data_path=./라벨링데이터 \
---slang_model=./slang_model \
---num_train_epochs=3 \
---batch_size=4 \
---weight_decay=0.05 \
---learning_rate=5e-5 
+--data_path ./dataset \
+--slang_model ./slang_model \
+--num_train_epochs 3 \
+--batch_size 4 \
+--weight_decay 0.05 \
+--learning_rate 5e-5 
 ```   
 [./data_path]의 데이터로 모델이 학습을 한 후 [./slang_model]에 모델을 저장합니다.  
 --data_path : 데이터 저장 경로   
@@ -64,10 +64,10 @@ python train.py \
 ### 모델으로 예측 
 ```
 python prediction.py \
---data_path=./라벨링데이터 \
---slang_model=./slang_model 
+--data_path ./dataset \
+--slang_model ./slang_model 
 ```  
-[./slang_model] 모델을 사용하여 라벨링데이터 폴더의 json 파일을 읽어와 은어와 속어가 포함된 문장을 표준어로 번역한다.   
+[./slang_model] 모델을 사용하여 dataset 폴더의 json 파일을 읽어와 은어와 속어가 포함된 문장을 표준어로 번역한다.   
 --data_path : 데이터 저장 경로   
 --slang_model : 학습한 모델 경로     
 
